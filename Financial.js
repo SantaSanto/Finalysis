@@ -1,5 +1,14 @@
-function sayHello() {
-  alert(1);
+function minLink(linkName, fieldName) {
+  var linkObjs = field(linkName);
+  var linkLen = linkObjs.length;
+  var result = Number.MAX_VALUE;
+
+  for(var i=0; i<linkLen; i++) {
+    var data = linkObjs[i].field(fieldName);					
+    result = Math.min(result, data);
+  }		
+				
+  return result;
 }
 
 function sum(arrayObj, fieldName) {
