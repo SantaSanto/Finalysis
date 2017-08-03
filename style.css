@@ -1,0 +1,37 @@
+body {
+	background-color: #FFFFFF;
+}
+
+.navbar {
+	 margin-top: 10px;
+}
+
+.navbar-default {
+	background-color: #3E2723;
+}
+
+.navbar-header {
+	margin-right: 25px;
+	margin-left:  25px;
+}
+
+.navbar-default .navbar-brand {
+	color: #EFEBE9;
+}
+
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+	background-color: #3E2723;
+	color: #EFEBE9;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+a {
+	color: #3E2723;
+}
+
+
+
+
